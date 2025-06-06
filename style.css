@@ -1,0 +1,62 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 5px;
+  justify-content: center;
+  margin: auto;
+}
+
+.cell {
+  background-color: #f0f0f0;
+  border: 2px solid #333;
+  font-size: 2.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.cell:hover {
+  background-color: #e0e0e0;
+}
+
+#status {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+#restart {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+.maru{
+  background: #FF8080;
+}
+.maru:hover{
+  background: #FFB0B0;
+}
+.batu{
+  background: #8080FF;
+}
+.batu:hover{
+  background: #B0B0FF;
+}
+.win{
+  background: #FFFF80;
+}
+.win:hover{
+  background: #FFFFB0;
+}
